@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rethink Sans', sans-serif;
+    background-color: #f9fafc;
+    color: #2d2f34;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+
+.top-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+.main-title {
+    max-width: 200px;
+    font-weight: 500;
+}
+
+.quote {
+    text-align: right;
+    font-weight: 400;
+}
+
+.quote strong {
+    font-weight: 700;
+}
+
+.sub-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 100px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+    max-width: 220px;
+}
+
+.menu-btn {
+    border: 1px solid #cfcfcf;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2d2f34;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    background-color: #2d2f34;
+    color: #f9fafc;
+    transition: all 0.3s ease;
+}
+
+.menu-items {
+    text-align: right;
+}
+
+.sub-quote {
+    font-size: 32px;
+    color: #2d2f34;
+    margin-bottom: 5px;
+}
+
+.commitment {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.hero {
+    height: 600px;
+    background-image: url('mak-2W6vcm2p-_s-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.hero h1 {
+    font-size: 32vw;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.cont1 {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 96px;
+    font-weight: 500;
+}
+.cont2 {
+    text-transform: uppercase;
+    font-size: 96px;
+    font-weight: 500;
+    color: #4F82D4;
+}
+
+.cont3{
+    position: relative;
+}
+
+.cont3 video {
+    width: 100%;
+}
+
+.desert {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32vw;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 4px white;
+    text-align: center;
+}
